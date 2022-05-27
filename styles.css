@@ -97,18 +97,19 @@ p {
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 24pt;
     position: absolute;
     top: 10%;
-    left: 70%;
-    right: 10%;
+    left: 5%;
+    right: 70%;
     bottom: 20%;
 }
 .shoes1 {
     position: absolute;
     width: 50%;
-    height: 46%;
-    top: 20%;
-    left: 1%;
+    height: 50%;
+    top: 15%;
+    left: 0%;
     right: 40%;
     bottom: 20%;
     z-index: 3;
