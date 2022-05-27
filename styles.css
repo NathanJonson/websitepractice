@@ -128,7 +128,7 @@ p {
 }
 .section4buttonsgraytwo {
     top: 44%;
-    left: 81%;
+    left: 71%;
     background: var(--section3, rgb(97, 97, 97));
     width: 20px;
     height: 50px;
@@ -162,7 +162,7 @@ p {
     height: 50px;
     border-radius: 1% 1% 1% 1%;
     top: 44%;
-    left: 60%;
+    left: 50%;
     z-index: 2;
     position: absolute;
 }
