@@ -1,0 +1,142 @@
+/*-----------------------TEXT STUFF----       -----------*/
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    font-size: 15px;
+}
+/*-----------------------IMAGE STUFF----       -----------*/
+.logo {
+    width: 225px;
+    height: 100px;
+    margin-right: auto;
+}
+.logomens {
+    width: 200px;
+    height: 100px;
+    margin-right: auto;
+}
+/*-----------------------LINK STUFF----       -----------*/
+
+.deese {
+    position: relative;
+}
+.deese::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+.deese:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*-----------------------NAVBAR STUFF----       -----------*/
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding: 0px 15px;
+}
+
+.searchbar1 {
+    margin-right: 300px;
+}
+/*-----------------------MAINBODY STUFF----       -----------*/
+.grid1 {
+    display: grid;
+    grid-template-columns: 100%;
+    height: 100vh;
+}
+
+.section1 {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 0%;
+    padding-bottom: 7rem;
+}
+.section2 {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 7rem;
+}
+
+/*-----------------------MAINBODY STUFF----       -----------*/
+
+
+
+
+
+/*-----------------------FOOTER STUFF----       -----------*/
+h2 {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+.footer-background {
+    background-color: rgb(0, 0, 0);
+}
+.footer-text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;      /*------this is the spacing between them------*/
+    margin: auto;
+    margin-top: 89.7%;
+}
+.footer-copyright {
+    color: #ffffff;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 67.5%;
+    width: 1880px;
+
+}
+.footer-text a{
+    color: #ffffff;
+}
+.footer-text h2{
+    color: #ffffff;
+}
+.footer {
+    width: 100%;
+    height: 648px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.penguin {
+    --penguin-skin: gray;
+    --penguin-beak: orange;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+  }

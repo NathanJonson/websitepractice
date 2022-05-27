@@ -1,0 +1,4 @@
+/*
+    Not going to do too much with JS until the near end
+    just going to keep this hear to have it for now.
+*/
